@@ -1,0 +1,73 @@
+body {
+  background: #020404;
+  background: -moz-linear-gradient(274deg, #020404 5%, #1b1d1d 96%);
+  background: -webkit-linear-gradient(274deg, #020404 5%, #1b1d1d 96%);
+  background: linear-gradient(274deg, #020404 5%, #1b1d1d 96%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020404",endColorstr="#1b1d1d",GradientType=1);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.logo {
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+.logo--line {
+  height: 2px;
+  background-color: #fff;
+  width: 20px;
+}
+.logo span {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 2em;
+  margin-left: 24px;
+  border-top: 2px solid #fff;
+}
+.logo i {
+  color: #f39742;
+}
+
+.card {
+  width: 80%;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+}
+.card--icons {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: space-between;
+}
+.card .quote {
+  margin-top: 2em;
+}
+.card .quote > div,
+.card .quote p {
+  margin: 0;
+}
+.card .quote p {
+  font-size: 2em;
+}
+.card .quote > div {
+  float: left;
+}
+.card .quote i {
+  margin-right: 1em;
+}
+.card #author {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  align-self: flex-end;
+  outline: none;
+  margin-top: 2em;
+}
+
+/*# sourceMappingURL=style.css.map */
