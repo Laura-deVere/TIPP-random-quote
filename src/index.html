@@ -18,7 +18,7 @@
   <body>
     <header>
       <div class="logo">
-        <div class="logo--line"></div>
+        <!-- <div class="logo--line"></div> -->
         <span>Quotely</span>
         <i class="lni lni-quotation"></i>
       </div>
@@ -26,14 +26,17 @@
     <section>
       <div class="card">
         <div class="card--icons">
-          <i class="lni lni-reload"></i>
+          <i class="lni lni-reload" id="reload"></i>
           <i class="lni lni-star"></i>
         </div>
         <div class="quote">
           <div><i class="lni lni-quotation"></i></div>
-          <p id="quote">Goes here</p>
+          <p id="quote"></p>
         </div>
-        <button id="author">Author</button>
+        <div id="display-next">
+          <button id="author"></button>
+          <i class="lni lni-arrow-right-circle"></i>
+        </div>
       </div>
     </section>
   </body>

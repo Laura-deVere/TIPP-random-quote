@@ -45,6 +45,9 @@ body {
   max-width: 100%;
   justify-content: space-between;
 }
+.card--icons i {
+  cursor: pointer;
+}
 .card .quote {
   margin-top: 2em;
 }
@@ -53,21 +56,52 @@ body {
   margin: 0;
 }
 .card .quote p {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .card .quote > div {
   float: left;
+  display: flex;
 }
-.card .quote i {
-  margin-right: 1em;
+.card .quote > div i {
+  margin-right: 0.5em;
+  font-size: 0.5em;
+  color: #f39742;
+}
+.card #display-next {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.card #display-next button,
+.card #display-next i {
+  cursor: pointer;
+}
+.card #display-next i {
+  margin-bottom: 5px;
 }
 .card #author {
   background-color: transparent;
   border: 0;
-  color: #fff;
+  color: #999e9e;
   align-self: flex-end;
   outline: none;
   margin-top: 2em;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+}
+
+@media (min-width: 720px) {
+  .card {
+    width: 70%;
+    max-width: 1000px;
+    margin-top: 100px;
+  }
+  .card .quote p {
+    font-size: 2.5em;
+  }
+  .card .quote > div i {
+    font-size: 1em;
+  }
 }
 
 
