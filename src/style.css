@@ -57,6 +57,7 @@ body {
 }
 .card .quote p {
   font-size: 1.5em;
+  height: 300px;
 }
 .card .quote > div {
   float: left;
@@ -98,6 +99,7 @@ body {
   }
   .card .quote p {
     font-size: 2.5em;
+    height: 150px;
   }
   .card .quote > div i {
     font-size: 1em;
